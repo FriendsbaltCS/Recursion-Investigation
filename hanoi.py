@@ -12,8 +12,7 @@ def solve(n):
     """
     def move(n, source, target, auxiliary):
         # TODO: Implement the move function
-        if n > 0:
-            print(f"Move disk {n} from {source} to {target}") # Leave this line as is
+        print(f"Move disk {n} from {source} to {target}") # Leave this line as is
 
     move(n, 'A', 'C', 'B')
 
