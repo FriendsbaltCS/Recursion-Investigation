@@ -10,10 +10,27 @@
             "console": "integratedTerminal"
         },
         {
-            "name": "Python Debugger: Current File",
-            "type": "debugpy",
+            "name": "Python: Pytest - fibonacci_test.py",
+            "type": "python",
             "request": "launch",
-            "program": "${file}",
+            "module": "pytest",
+            "args": ["-v", "./tests/fibonacci_test.py"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Pytest - hanoi_test.py",
+            "type": "python",
+            "request": "launch",
+            "module": "pytest",
+            "args": ["-v", "./tests/hanoi_test.py"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Pytest - factorial_test.py",
+            "type": "python",
+            "request": "launch",
+            "module": "pytest",
+            "args": ["-v", "./tests/factorial_test.py"],
             "console": "integratedTerminal"
         }
     ]
